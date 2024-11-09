@@ -1,1 +1,0 @@
-importScripts('https://veachy.com/v1/sw-import.js?h=waWQiOjExOTAyOTgsInNpZCI6MTM5MzI1Mywid2lkIjo2NTc2NzUsInNyYyI6MiwicG0iOjAsIm10IjowfQ==eyJ&d=misterfoxua.github.io&pbd=');
