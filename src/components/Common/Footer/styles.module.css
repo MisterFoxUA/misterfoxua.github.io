@@ -1,0 +1,24 @@
+.footer{
+
+    padding-top: 88px;
+    padding-bottom: 44px;
+
+    gap: 40px;
+}
+
+.divider{
+
+    height: 2px;
+    width: 100%;
+    background: #78828a;
+}
+
+.footerPages{
+
+    gap: 28px
+}
+
+.socials{
+
+    gap: 28px;
+}

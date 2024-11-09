@@ -1,0 +1,65 @@
+.ctn_AboutUs{
+
+    gap: 31px;
+}
+
+.aboutUsText{
+
+    width: 800px;
+}
+
+.creatorsGallery{
+
+    gap: 146px;
+
+    margin-top: 70px;
+}
+
+.creatorCard{
+
+    gap: 23px;
+
+    background: #111012;
+    padding: 15px;
+
+    width: 184px;
+    height: 277px;
+
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+    align-items: center;
+}
+
+.creatorImg{
+
+    width: 120px;
+    height: 120px;
+
+    background: url("../../images/MisterFox.webp");
+
+    border-radius: 100%;
+    background-size: contain;
+    /* Масштабування зображення для того, щоб воно повністю помістилося */
+    background-repeat: no-repeat;
+    /* Заборона повторення зображення */
+    background-position: center;
+    /* Вирівнювання по центру */
+}
+
+.creatorTitle{
+
+    gap: 8px;
+
+    width: 100%;
+}
+
+.creatorSocials{
+
+    width: 100%;
+
+    align-items: center;
+    justify-content: start;
+
+    gap: 20px;
+}

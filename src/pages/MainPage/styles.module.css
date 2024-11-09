@@ -1,0 +1,60 @@
+.PageTitle{
+
+    margin-bottom: 52px !important;
+}
+
+.cardGallery {
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 колонки за замовчуванням */
+    gap: 20px;
+    margin-bottom: 100px;
+    justify-content: center;
+}
+
+.ctn_search{
+
+    gap: 8px;
+}
+
+.search{
+
+    margin-top: 22px;
+    margin-bottom: 52px;
+}
+
+.icn_search{
+
+    width: 18px;
+    height: 18px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.inp_search{
+
+    margin-top: 3px;
+}
+
+/* Адаптивні налаштування для різних розмірів екрану */
+@media (max-width: 1200px) {
+    .cardGallery {
+        grid-template-columns: repeat(3, 1fr); /* 3 колонки на великих планшетах */
+        justify-items: center; 
+    }
+}
+
+@media (max-width: 900px) {
+    .cardGallery {
+        grid-template-columns: repeat(2, 1fr); /* 2 колонки на планшетах */
+        justify-items: center; 
+    }
+}
+
+@media (max-width: 600px) {
+    .cardGallery {
+        grid-template-columns: 1fr;
+        justify-items: center;  /* 1 колонка на мобільних пристроях */
+    }
+}
