@@ -7,6 +7,7 @@ import { GameCardItem } from "../../components/GameCard";
 import useGamesStore from "./store";
 import { Categorie, Difficulty } from "../../types";
 import { Pagination } from "../../components/Common/Paggination";
+import AdBanner from "../../components/Common/AdComponent";
 
 export const CategoryPage: React.FC = () => {
 
@@ -110,6 +111,7 @@ export const CategoryPage: React.FC = () => {
                                 </div>
                             </div>
                         </div>
+                        <AdBanner/>
                     </div>
                 </div>
                 <div className={`${styles.ctn_content} container d-flex-column`}>
@@ -125,6 +127,7 @@ export const CategoryPage: React.FC = () => {
                         setPage(page);
                         setFilteredGames();
                     }}/>:<></>}
+                    <AdBanner/>
                 </div>
             </div>
             <Footer />

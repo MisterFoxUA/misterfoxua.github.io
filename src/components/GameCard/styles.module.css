@@ -2,15 +2,14 @@
 
     width: 302px;
     height: 272px;
-
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     
     overflow: hidden;
 
     cursor: pointer;
 
     background: #111012;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .cardImage {

@@ -5,6 +5,8 @@ import { Header } from "../../components/Common/Header"
 import styles from "./styles.module.css";
 import useGamesStore from "./store";
 import { GameCardItem } from "../../components/GameCard";
+import AdBanner from "../../components/Common/AdComponent";
+import { AdContentBannerInline, AdContentBannerUnline } from "../../const";
 
 export const MainPage: React.FC = () => {
 
@@ -25,6 +27,7 @@ export const MainPage: React.FC = () => {
                     </div>
                 </div>
                 <div className="container">
+                    <AdBanner/>
                     <div className={`${styles.cardGallery}`}>
                         {games.map((item) => {
                             return (

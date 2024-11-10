@@ -6,6 +6,7 @@ import { useLocation } from "react-router-dom";
 import { GameItem } from "../../types";
 import { DisLikeIcon, FullScreenIcon, LikeIcon } from "../../assets";
 import { Helmet } from "react-helmet";
+import AdBanner from "../../components/Common/AdComponent";
 
 export const DetailsPage: React.FC = () => {
 
@@ -17,6 +18,7 @@ export const DetailsPage: React.FC = () => {
             <Header />
             <div className="main">
                 <div className="container">
+                    <AdBanner />
                     <div className={`${styles.gameWindow}`}>
                         <iframe className={`${styles.gameFrame}`} src={game._URL}></iframe>
                         <div className={`${styles.gameShortDesc} d-flex-space-between`}>
